@@ -1,13 +1,12 @@
 site_name: Marxism-DIY
-site_url: https://marxismdiy.gitbook.io
+site_url: https://marxismdiy.github.io
 theme:
   name: material
   palette:
-
     - 
       scheme: slate
       primary: pink
-      accent: deep orange
+      accent: red
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
@@ -15,7 +14,28 @@ theme:
     # Palette toggle for dark mode
     - scheme: default
       primary: pink
-      accent: deep orange
+      accent: red
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+nav:
+  - "前言": index.md
+  - "资料获取": 资料获取.md
+  - "入门必读":
+      - "如何入门": 入门必读/如何入门.md
+      - "《共产党宣言》": 入门必读/《共产党宣言》.md
+      - "《卢瑟经济学》（安生）": 入门必读/《卢瑟经济学》（安生）.md
+  - "政治经济学":
+      - "概述": 政治经济学/概述.md
+      - "入门基础":
+          - "《纸牌大厦》（安生）": 政治经济学/入门基础/《纸牌大厦》（安生）.md
+          - "政治经济学概论（徐禾等）": 政治经济学/入门基础/政治经济学概论（徐禾等）.md
+      - "进阶":
+          - "《资本论》": 政治经济学/进阶/《资本论》.md
+  - "科学社会主义":
+      - "概述": 科学社会主义/概述.md
+      - "《走向新社会主义》（科克肖特等）": 科学社会主义/《走向新社会主义》（科克肖特等）.md
+  - "马哲":
+      - "《大众哲学》": 马哲/艾思奇《大众哲学》.md
+  - "历史":
+    - "TODO：概述": 历史/TODO：概述.md
