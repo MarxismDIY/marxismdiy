@@ -37,21 +37,6 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-  
-  font:
-    text: Roboto Slab
-    code: Roboto Mono
-  
-  #icon:
-  #  repo: fontawesome-brands-github
-  
-  #custom_dir: overrides
-
-markdown_extensions:
-  - attr_list
-  - md_in_html
-  - footnotes
-
 nav:
   - "前言": index.md
   - "资料获取": 资料获取.md
