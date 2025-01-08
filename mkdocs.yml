@@ -1,41 +1,95 @@
 site_name: Marxism-DIY
 site_url: https://marxismdiy.github.io
+
+site_author: Marxism-DIY
+#顶部栏显示repository信息
+repo_name: marxism-DIY
+repo_url: https://github.com/MarxismDIY/marxism-DIY
+copyright: Copyright &copy; 2024-present <a href="https://github.com/MarxismDIY" target="_blank" rel="noopener noreferrer">Marxism-DIY</a>
+
 theme:
   name: material
+  language: zh
+
+  features:
+  - header.autohide
+  - navigation.tracking
+  - navigation.top
+  - search.highlight
+  - search.share
+  - search.suggest
+  - content.code.annotate
+
   palette:
-    - 
+    - media: "(prefers-color-scheme: light)"
       scheme: slate
       primary: pink
-      accent: red
+      accent: deep purple
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
 
     # Palette toggle for dark mode
-    - scheme: default
+    - media: "(prefers-color-scheme: dark)"
+      scheme: default
       primary: pink
       accent: red
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
+  
+  font:
+    text: Roboto Slab
+    code: Roboto Mono
+  
+  #icon:
+  #  repo: fontawesome-brands-github
+  
+  #custom_dir: overrides
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - footnotes
+
 nav:
   - "前言": index.md
   - "资料获取": 资料获取.md
   - "入门必读":
       - "如何入门": 入门必读/如何入门.md
-      - "《共产党宣言》": 入门必读/《共产党宣言》.md
-      - "《卢瑟经济学》（安生）": 入门必读/《卢瑟经济学》（安生）.md
+      - "共产党宣言 - 马克思": 入门必读/共产党宣言.md
+
   - "政治经济学":
       - "概述": 政治经济学/概述.md
       - "入门基础":
-          - "《纸牌大厦》（安生）": 政治经济学/入门基础/《纸牌大厦》（安生）.md
-          - "政治经济学概论（徐禾等）": 政治经济学/入门基础/政治经济学概论（徐禾等）.md
+          - "卢瑟经济学 - 安生": 政治经济学/入门基础/卢瑟经济学 - 安生.md
+          - "纸牌大厦 - 安生": 政治经济学/入门基础/纸牌大厦 - 安生.md
+          - "政治经济学概论 - 徐禾等": 政治经济学/入门基础/政治经济学概论 - 徐禾等.md
       - "进阶":
-          - "《资本论》": 政治经济学/进阶/《资本论》.md
+          - "资本论": 政治经济学/进阶/资本论.md
   - "科学社会主义":
       - "概述": 科学社会主义/概述.md
-      - "《走向新社会主义》（科克肖特等）": 科学社会主义/《走向新社会主义》（科克肖特等）.md
+      - "走向新社会主义 - 科克肖特等": 科学社会主义/走向新社会主义 - 科克肖特等.md
   - "马哲":
-      - "《大众哲学》": 马哲/艾思奇《大众哲学》.md
+      - "大众哲学 - 艾思奇": 马哲/大众哲学.md
   - "历史":
     - "TODO：概述": 历史/TODO：概述.md
+    - "红色工程师的崛起 - 安舟" : 历史/红色工程师的崛起 - 安舟.md
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - git-revision-date
+  - minify:
+      minify_html: true
+  - open-in-new-tab:
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/MarxismDIY/marxism-DIY
+  analytics:
+    provider: google
+    property: G-8CFHS47WYC
