@@ -1,10 +1,10 @@
-site_name: Marxism-DIY
-site_url: https://marxismdiy.github.io
+site_name: 马克思主义自学指南
+site_url: https://marxismdiy.github.io/marxism-self-learning
 
 site_author: Marxism-DIY
 #顶部栏显示repository信息
-repo_name: marxism-DIY
-repo_url: https://github.com/MarxismDIY/marxism-DIY
+# repo_name: marxism-self-learning
+# repo_url: https://github.com/MarxismDIY/marxism-DIY
 copyright: Copyright &copy; 2024-present <a href="https://github.com/MarxismDIY" target="_blank" rel="noopener noreferrer">Marxism-DIY</a>
 
 theme:
@@ -43,7 +43,6 @@ nav:
   - "入门必读":
       - "如何入门": 入门必读/如何入门.md
       - "共产党宣言 - 马克思": 入门必读/共产党宣言.md
-
   - "政治经济学":
       - "概述": 政治经济学/概述.md
       - "入门基础":
@@ -51,15 +50,17 @@ nav:
           - "纸牌大厦 - 安生": 政治经济学/入门基础/纸牌大厦 - 安生.md
           - "政治经济学概论 - 徐禾等": 政治经济学/入门基础/政治经济学概论 - 徐禾等.md
       - "进阶":
-          - "资本论": 政治经济学/进阶/资本论.md
+#          - "资本论": 政治经济学/进阶/资本论.md
+          - "技术封建主义 - 瓦鲁法基斯": 政治经济学/进阶/技术封建主义 - 瓦鲁法基斯.md
   - "科学社会主义":
       - "概述": 科学社会主义/概述.md
       - "走向新社会主义 - 科克肖特等": 科学社会主义/走向新社会主义 - 科克肖特等.md
   - "马哲":
       - "大众哲学 - 艾思奇": 马哲/大众哲学.md
   - "历史":
-    - "TODO：概述": 历史/TODO：概述.md
+    # - "TODO：概述": 历史/TODO：概述.md
     - "红色工程师的崛起 - 安舟" : 历史/红色工程师的崛起 - 安舟.md
+    - "（转载）文革史书单" : 历史/(转载)文革史书单.md
 
 plugins:
   - search:
